@@ -1,0 +1,2045 @@
+[
+  {
+    "index": 1,
+    "sem_no": "1142",
+    "group_name": "四年制生死與健康心理諮商系",
+    "grade": 1,
+    "class_no": "A0",
+    "course_no": "0001",
+    "course_name": "國文二",
+    "teacher_name": [],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "通識必修(通識)",
+    "room_no": "",
+    "week_no": 1,
+    "section_no": [
+      1,
+      2
+    ]
+  },
+  {
+    "index": 2,
+    "sem_no": "1142",
+    "group_name": "四年制生死與健康心理諮商系",
+    "grade": 2,
+    "class_no": "A0",
+    "course_no": "1728",
+    "course_name": "體育-現代舞",
+    "teacher_name": [],
+    "total_count": 0,
+    "credit": 0,
+    "course_type_name": "通識必修(通識)",
+    "room_no": "",
+    "week_no": 1,
+    "section_no": [
+      8,
+      9
+    ]
+  },
+  {
+    "index": 3,
+    "sem_no": "1142",
+    "group_name": "四年制休閒產業與健康促進系",
+    "grade": 1,
+    "class_no": "A0",
+    "course_no": "0001",
+    "course_name": "國文二",
+    "teacher_name": [],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "通識必修(通識)",
+    "room_no": "",
+    "week_no": 1,
+    "section_no": [
+      1,
+      2
+    ]
+  },
+  {
+    "index": 4,
+    "sem_no": "1142",
+    "group_name": "四年制休閒產業與健康促進系",
+    "grade": 4,
+    "class_no": "40",
+    "course_no": "1343",
+    "course_name": "休閒健康畢業專題",
+    "teacher_name": [
+      "方文熙",
+      "李曉昀",
+      "林俐吟"
+    ],
+    "total_count": 0,
+    "credit": 3,
+    "course_type_name": "專業選修(系所)",
+    "room_no": "",
+    "week_no": 6,
+    "section_no": [
+      1
+    ]
+  },
+  {
+    "index": 5,
+    "sem_no": "1142",
+    "group_name": "四年制休閒產業與健康促進系",
+    "grade": 4,
+    "class_no": "40",
+    "course_no": "1344",
+    "course_name": "觀光休閒健康產業進階實習",
+    "teacher_name": [
+      "陳瑋苓"
+    ],
+    "total_count": 0,
+    "credit": 9,
+    "course_type_name": "專業選修(系所)",
+    "room_no": "",
+    "week_no": 1,
+    "section_no": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "index": 6,
+    "sem_no": "1142",
+    "group_name": "四年制休閒產業與健康促進系",
+    "grade": 4,
+    "class_no": "41",
+    "course_no": "1344",
+    "course_name": "觀光休閒健康產業進階實習",
+    "teacher_name": [
+      "方文熙",
+      "李曉昀",
+      "林俐吟"
+    ],
+    "total_count": 0,
+    "credit": 9,
+    "course_type_name": "專業選修(系所)",
+    "room_no": "",
+    "week_no": 1,
+    "section_no": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "index": 7,
+    "sem_no": "1142",
+    "group_name": "四年制高齡健康照護系",
+    "grade": 1,
+    "class_no": "A0",
+    "course_no": "0001",
+    "course_name": "國文二",
+    "teacher_name": [
+      "姚彥淇"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "通識必修(通識)",
+    "room_no": "",
+    "week_no": 3,
+    "section_no": [
+      3,
+      4
+    ]
+  },
+  {
+    "index": 8,
+    "sem_no": "1142",
+    "group_name": "四年制高齡健康照護系",
+    "grade": 1,
+    "class_no": "A0",
+    "course_no": "1716",
+    "course_name": "體育-桌球2",
+    "teacher_name": [],
+    "total_count": 0,
+    "credit": 0,
+    "course_type_name": "通識必修(通識)",
+    "room_no": "",
+    "week_no": 2,
+    "section_no": [
+      1,
+      2
+    ]
+  },
+  {
+    "index": 9,
+    "sem_no": "1142",
+    "group_name": "四年制健康事業管理系",
+    "grade": 1,
+    "class_no": "A0",
+    "course_no": "0001",
+    "course_name": "國文二",
+    "teacher_name": [],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "通識必修(通識)",
+    "room_no": "",
+    "week_no": 1,
+    "section_no": [
+      3,
+      4
+    ]
+  },
+  {
+    "index": 10,
+    "sem_no": "1142",
+    "group_name": "四年制健康事業管理系",
+    "grade": 1,
+    "class_no": "B0",
+    "course_no": "0001",
+    "course_name": "國文二",
+    "teacher_name": [
+      "姚彥淇"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "通識必修(通識)",
+    "room_no": "",
+    "week_no": 1,
+    "section_no": [
+      3,
+      4
+    ]
+  },
+  {
+    "index": 11,
+    "sem_no": "1142",
+    "group_name": "四年制健康事業管理系",
+    "grade": 3,
+    "class_no": "A0",
+    "course_no": "1713",
+    "course_name": "體育-羽球2",
+    "teacher_name": [],
+    "total_count": 0,
+    "credit": 0,
+    "course_type_name": "通識必修(通識)",
+    "room_no": "",
+    "week_no": 2,
+    "section_no": [
+      1,
+      2
+    ]
+  },
+  {
+    "index": 12,
+    "sem_no": "1142",
+    "group_name": "四年制健康事業管理系",
+    "grade": 3,
+    "class_no": "B0",
+    "course_no": "1719",
+    "course_name": "體育-籃球2",
+    "teacher_name": [],
+    "total_count": 0,
+    "credit": 0,
+    "course_type_name": "通識必修(通識)",
+    "room_no": "",
+    "week_no": 2,
+    "section_no": [
+      1,
+      2
+    ]
+  },
+  {
+    "index": 13,
+    "sem_no": "1142",
+    "group_name": "四年制資訊管理系",
+    "grade": 1,
+    "class_no": "A0",
+    "course_no": "0001",
+    "course_name": "國文二",
+    "teacher_name": [
+      "何澍"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "通識必修(通識)",
+    "room_no": "",
+    "week_no": 1,
+    "section_no": [
+      3,
+      4
+    ]
+  },
+  {
+    "index": 14,
+    "sem_no": "1142",
+    "group_name": "四年制資訊管理系",
+    "grade": 1,
+    "class_no": "B0",
+    "course_no": "0001",
+    "course_name": "國文二",
+    "teacher_name": [
+      "何澍"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "通識必修(通識)",
+    "room_no": "F408",
+    "week_no": 5,
+    "section_no": [
+      6,
+      7
+    ]
+  },
+  {
+    "index": 15,
+    "sem_no": "1142",
+    "group_name": "四年制運動保健系",
+    "grade": 1,
+    "class_no": "A0",
+    "course_no": "0001",
+    "course_name": "國文二",
+    "teacher_name": [
+      "姚彥淇"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "通識必修(通識)",
+    "room_no": "",
+    "week_no": 5,
+    "section_no": [
+      6,
+      7
+    ]
+  },
+  {
+    "index": 16,
+    "sem_no": "1142",
+    "group_name": "四年制運動保健系",
+    "grade": 2,
+    "class_no": "A0",
+    "course_no": "1727",
+    "course_name": "體育-舞蹈",
+    "teacher_name": [],
+    "total_count": 0,
+    "credit": 0,
+    "course_type_name": "通識必修(通識)",
+    "room_no": "",
+    "week_no": 1,
+    "section_no": [
+      3,
+      4
+    ]
+  },
+  {
+    "index": 17,
+    "sem_no": "1142",
+    "group_name": "四年制運動保健系",
+    "grade": 2,
+    "class_no": "B0",
+    "course_no": "1726",
+    "course_name": "體育-匹克球",
+    "teacher_name": [],
+    "total_count": 0,
+    "credit": 0,
+    "course_type_name": "通識必修(通識)",
+    "room_no": "",
+    "week_no": 1,
+    "section_no": [
+      3,
+      4
+    ]
+  },
+  {
+    "index": 18,
+    "sem_no": "1142",
+    "group_name": "四年制語言治療與聽力學系",
+    "grade": 1,
+    "class_no": "A0",
+    "course_no": "0001",
+    "course_name": "國文二",
+    "teacher_name": [
+      "何澍"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "通識必修(通識)",
+    "room_no": "F408",
+    "week_no": 5,
+    "section_no": [
+      8,
+      9
+    ]
+  },
+  {
+    "index": 19,
+    "sem_no": "1142",
+    "group_name": "四年制嬰幼兒保育系",
+    "grade": 1,
+    "class_no": "A0",
+    "course_no": "0001",
+    "course_name": "國文二",
+    "teacher_name": [
+      "姚彥淇"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "通識必修(通識)",
+    "room_no": "",
+    "week_no": 5,
+    "section_no": [
+      8,
+      9
+    ]
+  },
+  {
+    "index": 20,
+    "sem_no": "1142",
+    "group_name": "四年制嬰幼兒保育系",
+    "grade": 1,
+    "class_no": "A0",
+    "course_no": "1713",
+    "course_name": "體育-羽球2",
+    "teacher_name": [],
+    "total_count": 0,
+    "credit": 0,
+    "course_type_name": "通識必修(通識)",
+    "room_no": "",
+    "week_no": 1,
+    "section_no": [
+      8,
+      9
+    ]
+  },
+  {
+    "index": 21,
+    "sem_no": "1142",
+    "group_name": "護理系中西醫結合護理碩士班",
+    "grade": 1,
+    "class_no": "A0",
+    "course_no": "1014",
+    "course_name": "中西醫結合護理 I",
+    "teacher_name": [
+      "王美華",
+      "鍾美玲",
+      "劉茹涵"
+    ],
+    "total_count": 0,
+    "credit": 3,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "B517",
+    "week_no": 5,
+    "section_no": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "index": 22,
+    "sem_no": "1142",
+    "group_name": "二年制護理系",
+    "grade": 1,
+    "class_no": "10",
+    "course_no": "0313",
+    "course_name": "中醫學概論",
+    "teacher_name": [
+      "王美華",
+      "羅明宇"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業選修(系所)",
+    "room_no": "",
+    "week_no": 3,
+    "section_no": [
+      3,
+      4
+    ]
+  },
+  {
+    "index": 23,
+    "sem_no": "1142",
+    "group_name": "二年制護理系",
+    "grade": 1,
+    "class_no": "10",
+    "course_no": "1170",
+    "course_name": "手術全期護理學",
+    "teacher_name": [],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業選修(系所)",
+    "room_no": "",
+    "week_no": 2,
+    "section_no": [
+      11,
+      12
+    ]
+  },
+  {
+    "index": 24,
+    "sem_no": "1142",
+    "group_name": "二年制護理系",
+    "grade": 1,
+    "class_no": "10",
+    "course_no": "0328",
+    "course_name": "健康促進理論與實務",
+    "teacher_name": [
+      "許智皓"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業選修(系所)",
+    "room_no": "",
+    "week_no": 4,
+    "section_no": [
+      8,
+      9
+    ]
+  },
+  {
+    "index": 25,
+    "sem_no": "1142",
+    "group_name": "二年制護理系",
+    "grade": 1,
+    "class_no": "10",
+    "course_no": "0400",
+    "course_name": "國際健康概論",
+    "teacher_name": [
+      "羅素"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業選修(系所)",
+    "room_no": "",
+    "week_no": 4,
+    "section_no": [
+      6,
+      7
+    ]
+  },
+  {
+    "index": 26,
+    "sem_no": "1142",
+    "group_name": "二年制護理系",
+    "grade": 1,
+    "class_no": "11",
+    "course_no": "0350",
+    "course_name": "長期照護概論",
+    "teacher_name": [
+      "簡翠薇",
+      "涂明香",
+      "陳妙言"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業選修(系所)",
+    "room_no": "",
+    "week_no": 4,
+    "section_no": [
+      8,
+      9
+    ]
+  },
+  {
+    "index": 27,
+    "sem_no": "1142",
+    "group_name": "二年制護理系",
+    "grade": 1,
+    "class_no": "11",
+    "course_no": "0400",
+    "course_name": "國際健康概論",
+    "teacher_name": [
+      "林英"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業選修(系所)",
+    "room_no": "",
+    "week_no": 3,
+    "section_no": [
+      3,
+      4
+    ]
+  },
+  {
+    "index": 28,
+    "sem_no": "1142",
+    "group_name": "二年制護理系",
+    "grade": 1,
+    "class_no": "11",
+    "course_no": "1670",
+    "course_name": "智慧照護科技應用",
+    "teacher_name": [
+      "廖珮宏",
+      "江逸萱",
+      "李明忠"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業選修(系所)",
+    "room_no": "",
+    "week_no": 4,
+    "section_no": [
+      6,
+      7
+    ]
+  },
+  {
+    "index": 29,
+    "sem_no": "1142",
+    "group_name": "二年制護理系",
+    "grade": 1,
+    "class_no": "12",
+    "course_no": "0370",
+    "course_name": "中醫照護應用",
+    "teacher_name": [
+      "劉吉豐"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業選修(系所)",
+    "room_no": "",
+    "week_no": 4,
+    "section_no": [
+      6,
+      7
+    ]
+  },
+  {
+    "index": 30,
+    "sem_no": "1142",
+    "group_name": "二年制護理系",
+    "grade": 1,
+    "class_no": "12",
+    "course_no": "0324",
+    "course_name": "兒童遊戲與觀察",
+    "teacher_name": [
+      "林芳怡"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業選修(系所)",
+    "room_no": "",
+    "week_no": 3,
+    "section_no": [
+      3,
+      4
+    ]
+  },
+  {
+    "index": 31,
+    "sem_no": "1142",
+    "group_name": "二年制護理系",
+    "grade": 1,
+    "class_no": "13",
+    "course_no": "1876",
+    "course_name": "人工智慧與健康照護應用",
+    "teacher_name": [
+      "江逸萱",
+      "蘇博玄"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業選修(系所)",
+    "room_no": "",
+    "week_no": 3,
+    "section_no": [
+      3,
+      4
+    ]
+  },
+  {
+    "index": 32,
+    "sem_no": "1142",
+    "group_name": "二年制護理系",
+    "grade": 1,
+    "class_no": "13",
+    "course_no": "0327",
+    "course_name": "安寧照護",
+    "teacher_name": [
+      "邱秀渝",
+      "陳妙言"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業選修(系所)",
+    "room_no": "",
+    "week_no": 4,
+    "section_no": [
+      8,
+      9
+    ]
+  },
+  {
+    "index": 33,
+    "sem_no": "1142",
+    "group_name": "二年制護理系",
+    "grade": 1,
+    "class_no": "13",
+    "course_no": "1638",
+    "course_name": "綜觀長期照護服務",
+    "teacher_name": [
+      "陳妙言",
+      "鄒昌婷"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業選修(系所)",
+    "room_no": "G203",
+    "week_no": 4,
+    "section_no": [
+      6,
+      7
+    ]
+  },
+  {
+    "index": 34,
+    "sem_no": "1142",
+    "group_name": "二年制護理系",
+    "grade": 1,
+    "class_no": "14",
+    "course_no": "0330",
+    "course_name": "急症護理與實務",
+    "teacher_name": [],
+    "total_count": 0,
+    "credit": 3,
+    "course_type_name": "專業選修(系所)",
+    "room_no": "S401",
+    "week_no": 3,
+    "section_no": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "index": 35,
+    "sem_no": "1142",
+    "group_name": "二年制護理系",
+    "grade": 1,
+    "class_no": "14",
+    "course_no": "1785",
+    "course_name": "國際健康照護文獻閱讀與簡報技巧",
+    "teacher_name": [
+      "黎靜婷",
+      "蘇博玄"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業選修(系所)",
+    "room_no": "",
+    "week_no": 4,
+    "section_no": [
+      6,
+      7
+    ]
+  },
+  {
+    "index": 36,
+    "sem_no": "1142",
+    "group_name": "二年制護理系",
+    "grade": 1,
+    "class_no": "15",
+    "course_no": "0400",
+    "course_name": "國際健康概論",
+    "teacher_name": [
+      "許智皓"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業選修(系所)",
+    "room_no": "",
+    "week_no": 4,
+    "section_no": [
+      6,
+      7
+    ]
+  },
+  {
+    "index": 37,
+    "sem_no": "1142",
+    "group_name": "二年制護理系",
+    "grade": 1,
+    "class_no": "15",
+    "course_no": "0365",
+    "course_name": "媒體與健康議題研討",
+    "teacher_name": [
+      "許智皓"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業選修(系所)",
+    "room_no": "",
+    "week_no": 3,
+    "section_no": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "index": 38,
+    "sem_no": "1142",
+    "group_name": "二年制護理系",
+    "grade": 1,
+    "class_no": "16",
+    "course_no": "0329",
+    "course_name": "緊急救護",
+    "teacher_name": [
+      "石雅文"
+    ],
+    "total_count": 0,
+    "credit": 3,
+    "course_type_name": "專業選修(系所)",
+    "room_no": "B414",
+    "week_no": 4,
+    "section_no": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "index": 39,
+    "sem_no": "1142",
+    "group_name": "二年制護理系",
+    "grade": 1,
+    "class_no": "Z0",
+    "course_no": "0375",
+    "course_name": "內外科護理",
+    "teacher_name": [
+      "李梅琛"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "B315",
+    "week_no": 1,
+    "section_no": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "index": 40,
+    "sem_no": "1142",
+    "group_name": "二年制護理系",
+    "grade": 1,
+    "class_no": "Z0",
+    "course_no": "0184",
+    "course_name": "內外科護理實習",
+    "teacher_name": [
+      "李梅琛"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "",
+    "week_no": 1,
+    "section_no": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "index": 41,
+    "sem_no": "1142",
+    "group_name": "二年制護理系",
+    "grade": 1,
+    "class_no": "Z1",
+    "course_no": "0188",
+    "course_name": "精神衛生護理學",
+    "teacher_name": [
+      "江逸萱"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "F302",
+    "week_no": 1,
+    "section_no": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "index": 42,
+    "sem_no": "1142",
+    "group_name": "二年制護理系",
+    "grade": 1,
+    "class_no": "Z1",
+    "course_no": "0187",
+    "course_name": "精神衛生護理學實習",
+    "teacher_name": [
+      "江逸萱"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "",
+    "week_no": 1,
+    "section_no": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "index": 43,
+    "sem_no": "1142",
+    "group_name": "二年制護理系",
+    "grade": 1,
+    "class_no": "Z2",
+    "course_no": "0190",
+    "course_name": "兒童護理",
+    "teacher_name": [
+      "林芳怡"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "G210",
+    "week_no": 1,
+    "section_no": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "index": 44,
+    "sem_no": "1142",
+    "group_name": "二年制護理系",
+    "grade": 1,
+    "class_no": "Z2",
+    "course_no": "0191",
+    "course_name": "兒童護理實習",
+    "teacher_name": [
+      "林芳怡"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "",
+    "week_no": 1,
+    "section_no": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "index": 45,
+    "sem_no": "1142",
+    "group_name": "二年制護理系",
+    "grade": 1,
+    "class_no": "Z3",
+    "course_no": "0194",
+    "course_name": "婦嬰護理",
+    "teacher_name": [
+      "陳淑溫"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "G307",
+    "week_no": 1,
+    "section_no": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "index": 46,
+    "sem_no": "1142",
+    "group_name": "二年制護理系",
+    "grade": 1,
+    "class_no": "Z3",
+    "course_no": "0193",
+    "course_name": "婦嬰護理實習",
+    "teacher_name": [
+      "陳淑溫"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "",
+    "week_no": 1,
+    "section_no": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "index": 47,
+    "sem_no": "1142",
+    "group_name": "二年制護理系",
+    "grade": 1,
+    "class_no": "Z4",
+    "course_no": "0197",
+    "course_name": "社區衛生護理",
+    "teacher_name": [
+      "吳桂花"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "B112",
+    "week_no": 1,
+    "section_no": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "index": 48,
+    "sem_no": "1142",
+    "group_name": "二年制護理系",
+    "grade": 1,
+    "class_no": "Z4",
+    "course_no": "0196",
+    "course_name": "社區衛生護理實習",
+    "teacher_name": [
+      "吳桂花"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "",
+    "week_no": 1,
+    "section_no": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "index": 49,
+    "sem_no": "1142",
+    "group_name": "二年制護理系",
+    "grade": 2,
+    "class_no": "S1",
+    "course_no": "0356",
+    "course_name": "皮膚美容科學",
+    "teacher_name": [
+      "張淑芳"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業選修(系所)",
+    "room_no": "",
+    "week_no": 2,
+    "section_no": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "index": 50,
+    "sem_no": "1142",
+    "group_name": "二年制護理系",
+    "grade": 2,
+    "class_no": "S2",
+    "course_no": "0366",
+    "course_name": "耳穴貼壓理論與實務",
+    "teacher_name": [
+      "劉吉豐"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業選修(系所)",
+    "room_no": "",
+    "week_no": 2,
+    "section_no": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "index": 51,
+    "sem_no": "1142",
+    "group_name": "二年制護理系",
+    "grade": 2,
+    "class_no": "S3",
+    "course_no": "0332",
+    "course_name": "壓力與情緒管理",
+    "teacher_name": [
+      "鍾美玲"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業選修(系所)",
+    "room_no": "",
+    "week_no": 3,
+    "section_no": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "index": 52,
+    "sem_no": "1142",
+    "group_name": "二年制護理系",
+    "grade": 2,
+    "class_no": "S4",
+    "course_no": "0363",
+    "course_name": "藝術治療概論",
+    "teacher_name": [],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業選修(系所)",
+    "room_no": "",
+    "week_no": 3,
+    "section_no": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "index": 53,
+    "sem_no": "1142",
+    "group_name": "二年制護理系",
+    "grade": 2,
+    "class_no": "S6",
+    "course_no": "0346",
+    "course_name": "老人照護",
+    "teacher_name": [
+      "吳桂花"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業選修(系所)",
+    "room_no": "",
+    "week_no": 5,
+    "section_no": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "index": 54,
+    "sem_no": "1142",
+    "group_name": "二年制護理系",
+    "grade": 2,
+    "class_no": "W1",
+    "course_no": "0360",
+    "course_name": "護理個案報告撰寫",
+    "teacher_name": [
+      "李梅琛"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業選修(系所)",
+    "room_no": "",
+    "week_no": 4,
+    "section_no": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "index": 55,
+    "sem_no": "1142",
+    "group_name": "二年制護理系",
+    "grade": 2,
+    "class_no": "W3",
+    "course_no": "0363",
+    "course_name": "藝術治療概論",
+    "teacher_name": [],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業選修(系所)",
+    "room_no": "",
+    "week_no": 5,
+    "section_no": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "index": 56,
+    "sem_no": "1142",
+    "group_name": "四年制護理系",
+    "grade": 1,
+    "class_no": "A0",
+    "course_no": "0001",
+    "course_name": "國文二",
+    "teacher_name": [],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "通識必修(通識)",
+    "room_no": "",
+    "week_no": 3,
+    "section_no": [
+      1,
+      2
+    ]
+  },
+  {
+    "index": 57,
+    "sem_no": "1142",
+    "group_name": "四年制護理系",
+    "grade": 1,
+    "class_no": "B0",
+    "course_no": "0001",
+    "course_name": "國文二",
+    "teacher_name": [],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "通識必修(通識)",
+    "room_no": "",
+    "week_no": 3,
+    "section_no": [
+      1,
+      2
+    ]
+  },
+  {
+    "index": 58,
+    "sem_no": "1142",
+    "group_name": "四年制護理系",
+    "grade": 1,
+    "class_no": "C0",
+    "course_no": "0001",
+    "course_name": "國文二",
+    "teacher_name": [
+      "何澍"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "通識必修(通識)",
+    "room_no": "F408",
+    "week_no": 3,
+    "section_no": [
+      1,
+      2
+    ]
+  },
+  {
+    "index": 59,
+    "sem_no": "1142",
+    "group_name": "四年制護理系",
+    "grade": 1,
+    "class_no": "D0",
+    "course_no": "0001",
+    "course_name": "國文二",
+    "teacher_name": [
+      "何澍"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "通識必修(通識)",
+    "room_no": "F408",
+    "week_no": 3,
+    "section_no": [
+      3,
+      4
+    ]
+  },
+  {
+    "index": 60,
+    "sem_no": "1142",
+    "group_name": "四年制護理系",
+    "grade": 2,
+    "class_no": "A0",
+    "course_no": "0410",
+    "course_name": "內外科護理學與實作 I",
+    "teacher_name": [
+      "江慧珠",
+      "簡靜慧",
+      "謝雨珊"
+    ],
+    "total_count": 0,
+    "credit": 5,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "S401,S408",
+    "week_no": 1,
+    "section_no": [
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "index": 61,
+    "sem_no": "1142",
+    "group_name": "四年制護理系",
+    "grade": 2,
+    "class_no": "A0",
+    "course_no": "0409",
+    "course_name": "基本護理學實習",
+    "teacher_name": [
+      "林英",
+      "杜帷希",
+      "余芮瑩"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "",
+    "week_no": 1,
+    "section_no": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "index": 62,
+    "sem_no": "1142",
+    "group_name": "四年制護理系",
+    "grade": 2,
+    "class_no": "B0",
+    "course_no": "0410",
+    "course_name": "內外科護理學與實作 I",
+    "teacher_name": [
+      "林婷茹",
+      "鍾美玲",
+      "陳美玲"
+    ],
+    "total_count": 0,
+    "credit": 5,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "S402,S408",
+    "week_no": 3,
+    "section_no": [
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "index": 63,
+    "sem_no": "1142",
+    "group_name": "四年制護理系",
+    "grade": 2,
+    "class_no": "B0",
+    "course_no": "0409",
+    "course_name": "基本護理學實習",
+    "teacher_name": [
+      "黃慧芬",
+      "江慧珠",
+      "劉茹涵"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "",
+    "week_no": 7,
+    "section_no": [
+      1
+    ]
+  },
+  {
+    "index": 64,
+    "sem_no": "1142",
+    "group_name": "四年制護理系",
+    "grade": 2,
+    "class_no": "B0",
+    "course_no": "0416",
+    "course_name": "婦嬰護理學與實作",
+    "teacher_name": [
+      "戴君倚",
+      "曾雅惠"
+    ],
+    "total_count": 0,
+    "credit": 3,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "G403",
+    "week_no": 2,
+    "section_no": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "index": 65,
+    "sem_no": "1142",
+    "group_name": "四年制護理系",
+    "grade": 2,
+    "class_no": "C0",
+    "course_no": "0410",
+    "course_name": "內外科護理學與實作 I",
+    "teacher_name": [
+      "石雅文",
+      "鍾美玲",
+      "陳美玲"
+    ],
+    "total_count": 0,
+    "credit": 5,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "S402,S408",
+    "week_no": 1,
+    "section_no": [
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "index": 66,
+    "sem_no": "1142",
+    "group_name": "四年制護理系",
+    "grade": 2,
+    "class_no": "C0",
+    "course_no": "0409",
+    "course_name": "基本護理學實習",
+    "teacher_name": [
+      "王美華",
+      "江慧珠",
+      "王佩珊"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "",
+    "week_no": 1,
+    "section_no": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "index": 67,
+    "sem_no": "1142",
+    "group_name": "四年制護理系",
+    "grade": 2,
+    "class_no": "D0",
+    "course_no": "0410",
+    "course_name": "內外科護理學與實作 I",
+    "teacher_name": [
+      "黃慧芬",
+      "劉桂芬",
+      "陳貞秀"
+    ],
+    "total_count": 0,
+    "credit": 5,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "S401,S408",
+    "week_no": 1,
+    "section_no": [
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "index": 68,
+    "sem_no": "1142",
+    "group_name": "四年制護理系",
+    "grade": 2,
+    "class_no": "D0",
+    "course_no": "0409",
+    "course_name": "基本護理學實習",
+    "teacher_name": [
+      "林婷茹",
+      "林英",
+      "張書璇"
+    ],
+    "total_count": 0,
+    "credit": 2,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "",
+    "week_no": 4,
+    "section_no": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "index": 69,
+    "sem_no": "1142",
+    "group_name": "四年制護理系",
+    "grade": 3,
+    "class_no": "A8",
+    "course_no": "0198",
+    "course_name": "社區衛生護理學實習",
+    "teacher_name": [
+      "黃秀麗",
+      "林季宜",
+      "陳明宜"
+    ],
+    "total_count": 0,
+    "credit": 3,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "",
+    "week_no": 3,
+    "section_no": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "index": 70,
+    "sem_no": "1142",
+    "group_name": "四年制護理系",
+    "grade": 3,
+    "class_no": "A8",
+    "course_no": "0420",
+    "course_name": "社區衛生護理學與實作",
+    "teacher_name": [
+      "黃秀麗",
+      "蘇美禎"
+    ],
+    "total_count": 0,
+    "credit": 3,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "B315",
+    "week_no": 3,
+    "section_no": [
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "index": 71,
+    "sem_no": "1142",
+    "group_name": "四年制護理系",
+    "grade": 3,
+    "class_no": "A9",
+    "course_no": "0413",
+    "course_name": "內外科護理學實習 II",
+    "teacher_name": [
+      "陳惠美",
+      "曾虹齡",
+      "杜帷希"
+    ],
+    "total_count": 0,
+    "credit": 3,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "",
+    "week_no": 3,
+    "section_no": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "index": 72,
+    "sem_no": "1142",
+    "group_name": "四年制護理系",
+    "grade": 3,
+    "class_no": "A9",
+    "course_no": "0412",
+    "course_name": "內外科護理學與實作 II",
+    "teacher_name": [
+      "陳惠美",
+      "陳美玲",
+      "林英"
+    ],
+    "total_count": 0,
+    "credit": 3,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "B315",
+    "week_no": 3,
+    "section_no": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "index": 73,
+    "sem_no": "1142",
+    "group_name": "四年制護理系",
+    "grade": 3,
+    "class_no": "B0",
+    "course_no": "0417",
+    "course_name": "婦嬰護理學實習",
+    "teacher_name": [
+      "曾雅惠",
+      "許碧芳",
+      "林秀貞"
+    ],
+    "total_count": 0,
+    "credit": 3,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "",
+    "week_no": 3,
+    "section_no": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "index": 74,
+    "sem_no": "1142",
+    "group_name": "四年制護理系",
+    "grade": 3,
+    "class_no": "B0",
+    "course_no": "0416",
+    "course_name": "婦嬰護理學與實作",
+    "teacher_name": [
+      "曾雅惠"
+    ],
+    "total_count": 0,
+    "credit": 3,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "G407",
+    "week_no": 3,
+    "section_no": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "index": 75,
+    "sem_no": "1142",
+    "group_name": "四年制護理系",
+    "grade": 3,
+    "class_no": "B1",
+    "course_no": "0189",
+    "course_name": "精神科護理學實習",
+    "teacher_name": [
+      "李怡賢",
+      "黃婷婷",
+      "陳怡禎"
+    ],
+    "total_count": 0,
+    "credit": 3,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "",
+    "week_no": 3,
+    "section_no": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "index": 76,
+    "sem_no": "1142",
+    "group_name": "四年制護理系",
+    "grade": 3,
+    "class_no": "B1",
+    "course_no": "0418",
+    "course_name": "精神科護理學與實作",
+    "teacher_name": [
+      "李怡賢",
+      "李坤黛"
+    ],
+    "total_count": 0,
+    "credit": 3,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "G407",
+    "week_no": 3,
+    "section_no": [
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "index": 77,
+    "sem_no": "1142",
+    "group_name": "四年制護理系",
+    "grade": 3,
+    "class_no": "C0",
+    "course_no": "0415",
+    "course_name": "兒童護理學實習",
+    "teacher_name": [
+      "李美銀",
+      "陳昭誼",
+      "唐鈺婷"
+    ],
+    "total_count": 0,
+    "credit": 3,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "",
+    "week_no": 3,
+    "section_no": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "index": 78,
+    "sem_no": "1142",
+    "group_name": "四年制護理系",
+    "grade": 3,
+    "class_no": "C0",
+    "course_no": "0414",
+    "course_name": "兒童護理學與實作",
+    "teacher_name": [
+      "李美銀",
+      "黃秀玫",
+      "李慈音"
+    ],
+    "total_count": 0,
+    "credit": 3,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "G408",
+    "week_no": 3,
+    "section_no": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "index": 79,
+    "sem_no": "1142",
+    "group_name": "四年制護理系",
+    "grade": 3,
+    "class_no": "C1",
+    "course_no": "0189",
+    "course_name": "精神科護理學實習",
+    "teacher_name": [
+      "林佑蓉",
+      "賴倩瑜",
+      "黃婷婷"
+    ],
+    "total_count": 0,
+    "credit": 3,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "",
+    "week_no": 3,
+    "section_no": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "index": 80,
+    "sem_no": "1142",
+    "group_name": "四年制護理系",
+    "grade": 3,
+    "class_no": "C1",
+    "course_no": "0418",
+    "course_name": "精神科護理學與實作",
+    "teacher_name": [
+      "林佑蓉",
+      "賴倩瑜"
+    ],
+    "total_count": 0,
+    "credit": 3,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "G408",
+    "week_no": 3,
+    "section_no": [
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "index": 81,
+    "sem_no": "1142",
+    "group_name": "四年制護理系",
+    "grade": 3,
+    "class_no": "D0",
+    "course_no": "0413",
+    "course_name": "內外科護理學實習 II",
+    "teacher_name": [
+      "劉桂芬",
+      "曾虹齡",
+      "王佩珊"
+    ],
+    "total_count": 0,
+    "credit": 3,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "",
+    "week_no": 3,
+    "section_no": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "index": 82,
+    "sem_no": "1142",
+    "group_name": "四年制護理系",
+    "grade": 3,
+    "class_no": "D0",
+    "course_no": "0412",
+    "course_name": "內外科護理學與實作 II",
+    "teacher_name": [
+      "劉桂芬",
+      "江慧珠",
+      "陳貞秀"
+    ],
+    "total_count": 0,
+    "credit": 3,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "G405",
+    "week_no": 3,
+    "section_no": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "index": 83,
+    "sem_no": "1142",
+    "group_name": "四年制護理系",
+    "grade": 3,
+    "class_no": "D0",
+    "course_no": "1724",
+    "course_name": "體育-撞球",
+    "teacher_name": [],
+    "total_count": 0,
+    "credit": 0,
+    "course_type_name": "通識必修(通識)",
+    "room_no": "",
+    "week_no": 1,
+    "section_no": [
+      8,
+      9
+    ]
+  },
+  {
+    "index": 84,
+    "sem_no": "1142",
+    "group_name": "四年制護理系",
+    "grade": 3,
+    "class_no": "D1",
+    "course_no": "0415",
+    "course_name": "兒童護理學實習",
+    "teacher_name": [
+      "黃秀玫",
+      "陳昭誼",
+      "唐鈺婷"
+    ],
+    "total_count": 0,
+    "credit": 3,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "",
+    "week_no": 3,
+    "section_no": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "index": 85,
+    "sem_no": "1142",
+    "group_name": "四年制護理系",
+    "grade": 3,
+    "class_no": "D1",
+    "course_no": "0414",
+    "course_name": "兒童護理學與實作",
+    "teacher_name": [
+      "黃秀玫",
+      "李美銀",
+      "李慈音"
+    ],
+    "total_count": 0,
+    "credit": 3,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "G405",
+    "week_no": 3,
+    "section_no": [
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "index": 86,
+    "sem_no": "1142",
+    "group_name": "護理系碩士班護研成人專科組",
+    "grade": 1,
+    "class_no": "A0",
+    "course_no": "0696",
+    "course_name": "成人專科護理 I",
+    "teacher_name": [
+      "林婷茹",
+      "王采芷",
+      "簡靜慧"
+    ],
+    "total_count": 0,
+    "credit": 3,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "F501",
+    "week_no": 5,
+    "section_no": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "index": 87,
+    "sem_no": "1142",
+    "group_name": "護理系碩士在職專班護專成人組",
+    "grade": 1,
+    "class_no": "A0",
+    "course_no": "0694",
+    "course_name": "成人健康照護 I",
+    "teacher_name": [
+      "劉桂芬",
+      "林梅香",
+      "邱秀渝"
+    ],
+    "total_count": 0,
+    "credit": 3,
+    "course_type_name": "專業必修(系所)",
+    "room_no": "B603",
+    "week_no": 5,
+    "section_no": [
+      5,
+      6,
+      7
+    ]
+  }
+]

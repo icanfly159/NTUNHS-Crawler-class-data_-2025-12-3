@@ -19,6 +19,27 @@ def log(msg: str) -> None:
 
 
 # -----------------------------
+# Utility: split semesters into chunks of size 2
+# -----------------------------
+def chunk_semesters(semesters: List[str], chunk_size: int = 2) -> List[List[str]]:
+    """
+    Split semester list into chunks of given size.
+    e.g. ["1142","1141","1132","1131"] -> [["1142","1141"],["1132","1131"]]
+         ["1142","1141","1132"]       -> [["1142","1141"],["1132"]]
+    """
+    chunks: List[List[str]] = []
+    current: List[str] = []
+    for s in semesters:
+        current.append(s)
+        if len(current) == chunk_size:
+            chunks.append(current)
+            current = []
+    if current:
+        chunks.append(current)
+    return chunks
+
+
+# -----------------------------
 # 1. Semester selection
 # -----------------------------
 def click_multi_semesters(driver, semesters: Iterable[str]) -> Tuple[List[str], List[str]]:
@@ -101,7 +122,7 @@ def click_query_button(driver) -> None:
     log("Clicked '查詢' button. Waiting for results...")
 
 
-def wait_for_results_table(driver, timeout: int = 90) -> None:
+def wait_for_results_table(driver, timeout: int = 500) -> None:
     """Wait until there is at least one result row in the NewGridView."""
     WebDriverWait(driver, timeout).until(
         EC.presence_of_element_located(
@@ -293,7 +314,7 @@ def scrape_results_and_save_json(driver) -> None:
 
 
 # -----------------------------
-# 4. Main flow
+# 4. Main flow – run query per 2 semesters
 # -----------------------------
 def main() -> None:
     raw = input("Enter semesters separated by commas (e.g. 1142,1141,1132,1131):\n> ")
@@ -303,28 +324,37 @@ def main() -> None:
         print("No semesters entered. Exiting.")
         return
 
-    log(f"Launching Chrome and opening {URL}")
+    # chunk into groups of 2: e.g. [1142,1141,1132,1131] -> [[1142,1141],[1132,1131]]
+    chunks = chunk_semesters(target_semesters, chunk_size=2)
+    log(f"Semester chunks (2 per search): {chunks}")
+
+    log(f"Launching Chrome")
     driver = webdriver.Chrome()  # assumes chromedriver is in PATH / managed
     driver.maximize_window()
-    driver.get(URL)
 
     try:
-        # 1) Select semesters
-        click_multi_semesters(driver, target_semesters)
+        for idx, sem_chunk in enumerate(chunks, start=1):
+            log(f"=== Query #{idx}: semesters {sem_chunk} ===")
 
-        # 2) Select all 學制
-        click_all_edu_types(driver)
+            # reload page each time to clear previous selections
+            driver.get(URL)
 
-        # 3) Click 查詢
-        click_query_button(driver)
+            # 1) Select semesters (this chunk)
+            click_multi_semesters(driver, sem_chunk)
 
-        # 4) Wait for results
-        wait_for_results_table(driver, timeout=90)
+            # 2) Select all 學制
+            click_all_edu_types(driver)
 
-        # 5) Scrape + save JSON
-        scrape_results_and_save_json(driver)
+            # 3) Click 查詢
+            click_query_button(driver)
 
-        log("Done. JSON files are in ./data")
+            # 4) Wait for results
+            wait_for_results_table(driver, timeout=500)
+
+            # 5) Scrape + save JSON (per sem_no)
+            scrape_results_and_save_json(driver)
+
+        log("All chunks done. JSON files are in ./data")
 
     except Exception as e:
         log(f"Error during Selenium interaction: {e}")
