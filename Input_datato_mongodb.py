@@ -7,7 +7,7 @@ from pymongo.server_api import ServerApi
 
 # === 1. MongoDB connection ===
 # Use your real URI here. (Better: move to env var later.)
-uri = "mongodb+srv://ntunhs:Aa22512188@ntunhsdatabase.to42hoq.mongodb.net/?appName=NTUNHSdatabase"
+uri = "mongodb+srv://ntunhs:password@ntunhsdatabase.to42hoq.mongodb.net/?appName=cluster"
 
 
 
