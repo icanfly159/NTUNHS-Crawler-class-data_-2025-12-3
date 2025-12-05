@@ -93,24 +93,33 @@ def click_multi_semesters(driver, semesters: Iterable[str]) -> Tuple[List[str], 
 
 
 # -----------------------------
-# 1.5 學制 (education type) + 查詢
+# 1.5 年級 (grade) + 查詢
 # -----------------------------
-def click_all_edu_types(driver) -> None:
-    """Click all checkboxes inside the 學制 table."""
+def click_all_grades(driver) -> None:
+    """
+    Click all checkboxes inside 年級 table.
+    (學期變動後年級項目會刷新，因此每次查詢都需要重新抓取)
+    HTML example:
+      <table id="ContentPlaceHolder1_cblGrade">
+        <input ... value="1"> 1年級
+        <input ... value="2"> 2年級
+        ...
+      </table>
+    """
     WebDriverWait(driver, 10).until(
         EC.presence_of_element_located(
-            (By.ID, "ContentPlaceHolder1_cblNewEduType")
+            (By.ID, "ContentPlaceHolder1_cblGrade")
         )
     )
 
     checkboxes = driver.find_elements(
-        By.XPATH, "//table[@id='ContentPlaceHolder1_cblNewEduType']//input[@type='checkbox']"
+        By.XPATH, "//table[@id='ContentPlaceHolder1_cblGrade']//input[@type='checkbox']"
     )
 
     for box in checkboxes:
         driver.execute_script("arguments[0].click();", box)
 
-    log(f"Selected all 學制 checkboxes (count={len(checkboxes)}).")
+    log(f"Selected all 年級 checkboxes (count={len(checkboxes)}).")
 
 
 def click_query_button(driver) -> None:
@@ -123,13 +132,21 @@ def click_query_button(driver) -> None:
 
 
 def wait_for_results_table(driver, timeout: int = 500) -> None:
-    """Wait until there is at least one result row in the NewGridView."""
-    WebDriverWait(driver, timeout).until(
-        EC.presence_of_element_located(
-            (By.CSS_SELECTOR, "#ContentPlaceHolder1_NewGridView tr[group]")
+    """
+    Wait until there is at least one result row in either:
+      - NewGridView (ContentPlaceHolder1_NewGridView), or
+      - OldGridView (ContentPlaceHolder1_OldGridView)
+    """
+    def _has_any_row(d):
+        rows = d.find_elements(
+            By.CSS_SELECTOR,
+            "#ContentPlaceHolder1_NewGridView tr[group], "
+            "#ContentPlaceHolder1_OldGridView tr[group]"
         )
-    )
-    log("Result table is ready (found at least one row).")
+        return len(rows) > 0
+
+    WebDriverWait(driver, timeout).until(_has_any_row)
+    log("Result table is ready (found at least one row in NewGridView or OldGridView).")
 
 
 # -----------------------------
@@ -233,19 +250,33 @@ def parse_teacher_names_from_row(row) -> List[str]:
 # -----------------------------
 def scrape_results_and_save_json(driver) -> None:
     """
-    After clicking 查詢 and loading results, scrape all rows and save:
+    After clicking 查詢 and loading results, scrape all rows from either:
+       - ContentPlaceHolder1_NewGridView, or
+       - ContentPlaceHolder1_OldGridView
+    and save:
        data/courses_<sem_no>.json
     """
-    WebDriverWait(driver, 5).until(
+    # 等任何一個表格出現
+    WebDriverWait(driver, 10).until(
         EC.presence_of_element_located(
-            (By.ID, "ContentPlaceHolder1_NewGridView")
+            (By.CSS_SELECTOR, "#ContentPlaceHolder1_NewGridView, #ContentPlaceHolder1_OldGridView")
         )
     )
 
-    rows = driver.find_elements(
-        By.CSS_SELECTOR, "#ContentPlaceHolder1_NewGridView tr[group]"
-    )
-    log(f"Found {len(rows)} <tr group='...'> rows, parsing...")
+    # 優先使用 NewGridView，若沒有就用 OldGridView
+    table = None
+    table_id = None
+    try:
+        table = driver.find_element(By.ID, "ContentPlaceHolder1_NewGridView")
+        table_id = "ContentPlaceHolder1_NewGridView"
+        log("Using NewGridView for scraping.")
+    except Exception:
+        table = driver.find_element(By.ID, "ContentPlaceHolder1_OldGridView")
+        table_id = "ContentPlaceHolder1_OldGridView"
+        log("Using OldGridView for scraping.")
+
+    rows = table.find_elements(By.CSS_SELECTOR, "tr[group]")
+    log(f"Found {len(rows)} <tr group='...'> rows in {table_id}, parsing...")
 
     data_by_sem: Dict[str, List[dict]] = {}
     parsed_count = 0
@@ -260,23 +291,74 @@ def scrape_results_and_save_json(driver) -> None:
 
         index_val = parse_int_safe(index_str, default=0)
 
+        # --- sem_no: New & Old 都是 lblSEMNo ---
         sem_no = get_span_text_in_row(row, "lblSEMNo")
-        group_name = get_span_text_in_row(row, "lblGroupName")
-        grade_val = parse_int_safe(get_span_text_in_row(row, "lblGrade"), default=0)
-        class_no = get_span_text_in_row(row, "lblClass")
-        course_no = get_span_text_in_row(row, "lblCourseNo")
+
+        # --- group_name: New 用 lblGroupName，Old 用 lblDeptName ---
+        try:
+            group_name = get_span_text_in_row(row, "lblGroupName")
+        except Exception:
+            try:
+                group_name = get_span_text_in_row(row, "lblDeptName")
+            except Exception:
+                group_name = ""
+
+        # --- grade: New 用 lblGrade，Old 用 hidCOURSEGRADE ---
+        try:
+            grade_val = parse_int_safe(get_span_text_in_row(row, "lblGrade"), default=0)
+        except Exception:
+            try:
+                grade_val = parse_int_safe(get_span_text_in_row(row, "hidCOURSEGRADE"), default=0)
+            except Exception:
+                grade_val = 0
+
+        # --- class_no: New 用 lblClass，Old 通常用 hidden hidCOURSECLASS 或 ClassName title ---
+        class_no = ""
+        try:
+            class_no = get_span_text_in_row(row, "lblClass")
+        except Exception:
+            # OldGridView: hidden COURSELASS
+            try:
+                class_no = get_span_text_in_row(row, "hidCOURSECLASS")
+            except Exception:
+                # fallback: ClassName 的 title (e.g. 665A10)
+                try:
+                    class_span = row.find_element(By.CSS_SELECTOR, "span[id*='lblClassName']")
+                    class_no = (class_span.get_attribute("title") or "").strip()
+                except Exception:
+                    class_no = ""
+
+        # --- course_no: New 有 lblCourseNo，Old 沒有時用 CourseName 的 title 或 FULLCOURSECLASS ---
+        try:
+            course_no = get_span_text_in_row(row, "lblCourseNo")
+        except Exception:
+            # OldGridView: lblCourseName 的 title 是課號 (例如 6651Z052)
+            try:
+                cspan = row.find_element(By.CSS_SELECTOR, "span[id*='lblCourseName']")
+                course_no = (cspan.get_attribute("title") or "").strip()
+            except Exception:
+                # 再退一步用 hidCOURSEFLNO (完整代碼)
+                try:
+                    course_no = get_span_text_in_row(row, "hidCOURSEFLNO")
+                except Exception:
+                    course_no = ""
+
+        # --- course_name: New & Old 都有 lblCourseName ---
         course_name = get_span_text_in_row(row, "lblCourseName")
 
+        # --- teacher_names: 你原本的函式已經支援 hidTeachNames / link spans ---
         teacher_names = parse_teacher_names_from_row(row)
 
+        # --- total_count / credit: 兩邊都有 lblTotalCNT / lblCredit ---
         total_cnt_val = parse_int_safe(get_span_text_in_row(row, "lblTotalCNT"), default=0)
         credit_val = parse_int_safe(get_span_text_in_row(row, "lblCredit"), default=0)
 
+        # --- course_type_name / room_no / week_no: 兩邊 ID 名稱同樣 ---
         course_type_name = get_span_text_in_row(row, "lblCourseTypeName")
         room_no = get_span_text_in_row(row, "lblRoomNo")
-
         week_no_val = parse_int_safe(get_span_text_in_row(row, "lblWeekNo"), default=0)
 
+        # --- section_no: 一樣用 lblSecNo + 你原本的 parse_section_no ---
         sec_text = get_span_text_in_row(row, "lblSecNo")
         section_no_list = parse_section_no(sec_text)
 
@@ -313,6 +395,7 @@ def scrape_results_and_save_json(driver) -> None:
         log(f"Saved {len(docs)} records to {json_path}")
 
 
+
 # -----------------------------
 # 4. Main flow – run query per 2 semesters
 # -----------------------------
@@ -342,8 +425,8 @@ def main() -> None:
             # 1) Select semesters (this chunk)
             click_multi_semesters(driver, sem_chunk)
 
-            # 2) Select all 學制
-            click_all_edu_types(driver)
+            # 2) Select all 年級
+            click_all_grades(driver)
 
             # 3) Click 查詢
             click_query_button(driver)
