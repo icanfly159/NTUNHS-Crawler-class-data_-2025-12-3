@@ -82,21 +82,21 @@ def compute_teacher_stats(db, teacher: str, this_sem: str = "1142") -> Dict[str,
             "course_count": len(sem_courses),
             "courses": sem_courses,
         }
-
     # -------------------------
-    # 功能 5：計算 Top3 課程
+    # 功能 5：計算 Top3 課程（含四捨五入）
     # -------------------------
     course_stats_output = []
 
     for (course_no, course_name), year_map in course_year_map.items():
 
-        # 計算每個「學年」平均值
+        # 計算每個「學年」平均值（四捨五入成整數）
         year_avg = {}
         for year, counts in year_map.items():
-            year_avg[year] = sum(counts) / len(counts)  # 兩學期平均 or 一學期平均
+            avg_value = sum(counts) / len(counts)
+            year_avg[year] = round(avg_value)   # ⭐ 四捨五入
 
-        # 整體歷年平均
-        overall_avg = sum(year_avg.values()) / len(year_avg)
+        # 計算歷年平均（同樣四捨五入）
+        overall_avg = round(sum(year_avg.values()) / len(year_avg))
 
         # 總人數（全部學期加總）
         total_students = sum(sum(c_list) for c_list in year_map.values())
@@ -105,11 +105,11 @@ def compute_teacher_stats(db, teacher: str, this_sem: str = "1142") -> Dict[str,
             "course_no": course_no,
             "course_name": course_name,
             "total_students": total_students,
-            "year_avg": year_avg,          # 每個學年的平均
-            "overall_avg": overall_avg,    # 歷年平均
+            "year_avg": year_avg,          # 每個學年的平均（已四捨五入）
+            "overall_avg": overall_avg,    # 歷年平均（已四捨五入）
         })
 
-    # 按總人數排序，只取前三名
+    # 按總人數排序，只取前三名（若不足 3 堂課則自然裁切）
     top_courses = sorted(
         course_stats_output,
         key=lambda x: x["total_students"],
